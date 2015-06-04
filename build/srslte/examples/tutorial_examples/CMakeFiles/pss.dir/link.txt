@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wno-write-strings -Wno-format-extra-args -Winline -Wno-unused-result -Wno-format -std=c99 -D_GNU_SOURCE -g -O3 -DNDEBUG    CMakeFiles/pss.dir/pss.c.o  -o pss -rdynamic ../../lib/libsrslte.so /usr/local/lib/libsrsgui.so ../../lib/libsrslte_uhd.so -lm -lfftw3f /usr/local/lib/libvolk.so -luhd -Wl,-rpath,/home/orange/srslte_m/build/srslte/lib:/usr/local/lib 

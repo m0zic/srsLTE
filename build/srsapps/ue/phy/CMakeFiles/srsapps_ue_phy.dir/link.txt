@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libsrsapps_ue_phy.so -o libsrsapps_ue_phy.so CMakeFiles/srsapps_ue_phy.dir/src/dl_buffer.cc.o CMakeFiles/srsapps_ue_phy.dir/src/phy.cc.o CMakeFiles/srsapps_ue_phy.dir/src/ul_buffer.cc.o CMakeFiles/srsapps_ue_phy.dir/src/prach.cc.o ../../common/libsrsapps_common.so -Wl,-rpath,/home/orange/srslte_m/build/srsapps/common: 

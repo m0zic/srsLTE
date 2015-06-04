@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libsrslte_uhd.so -o libsrslte_uhd.so CMakeFiles/srslte_uhd.dir/cuhd/src/cuhd_imp.cpp.o CMakeFiles/srslte_uhd.dir/cuhd/src/cuhd_utils.c.o  -L/usr/local/lib -luhd -Wl,-rpath,/usr/local/lib: 

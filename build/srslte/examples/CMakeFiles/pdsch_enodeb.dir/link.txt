@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wno-write-strings -Wno-format-extra-args -Winline -Wno-unused-result -Wno-format -std=c99 -D_GNU_SOURCE -g -O3 -DNDEBUG    CMakeFiles/pdsch_enodeb.dir/pdsch_enodeb.c.o  -o pdsch_enodeb -rdynamic ../lib/libsrslte.so -lpthread ../lib/libsrslte_uhd.so -lm -lfftw3f /usr/local/lib/libvolk.so -luhd -Wl,-rpath,/home/orange/srslte_m/build/srslte/lib:/usr/local/lib 

@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wno-write-strings -Wno-format-extra-args -Winline -Wno-unused-result -Wno-format -std=c99 -D_GNU_SOURCE -g -O3 -DNDEBUG    CMakeFiles/resample_arb_bench.dir/resample_arb_bench.c.o  -o resample_arb_bench  -L/usr/local/lib -rdynamic ../../libsrslte.so -lm -lfftw3f /usr/local/lib/libvolk.so -Wl,-rpath,/home/orange/srslte_m/build/srslte/lib:/usr/local/lib 

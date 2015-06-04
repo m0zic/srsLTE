@@ -1,0 +1,1 @@
+/usr/bin/cc   -Wall -Wno-write-strings -Wno-format-extra-args -Winline -Wno-unused-result -Wno-format -std=c99 -D_GNU_SOURCE -g -O3 -DNDEBUG    CMakeFiles/cell_measurement.dir/cell_measurement.c.o  -o cell_measurement -rdynamic ../lib/libsrslte.so ../lib/libsrslte_uhd.so -lm -lfftw3f /usr/local/lib/libvolk.so -luhd -Wl,-rpath,/home/orange/srslte_m/build/srslte/lib:/usr/local/lib 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libsrsapps_common.so -o libsrsapps_common.so CMakeFiles/srsapps_common.dir/src/log_stdout.cc.o CMakeFiles/srsapps_common.dir/src/tti_sync_cv.cc.o CMakeFiles/srsapps_common.dir/src/qbuff.cc.o CMakeFiles/srsapps_common.dir/src/queue.cc.o 
