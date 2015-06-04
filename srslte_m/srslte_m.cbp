@@ -31,6 +31,701 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../CMakeLists.txt" />
+		<Unit filename="../COPYRIGHT" />
+		<Unit filename="../CTestConfig.cmake" />
+		<Unit filename="../CTestCustom.cmake.in" />
+		<Unit filename="../LICENSE" />
+		<Unit filename="../README.md" />
+		<Unit filename="../cmake/modules/BuildMex.cmake" />
+		<Unit filename="../cmake/modules/CheckFunctionExists.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../cmake/modules/CheckFunctionExistsMath.cmake" />
+		<Unit filename="../cmake/modules/FindFFTW3F.cmake" />
+		<Unit filename="../cmake/modules/FindMATLAB.cmake" />
+		<Unit filename="../cmake/modules/FindOCTAVE.cmake" />
+		<Unit filename="../cmake/modules/FindSRSGUI.cmake" />
+		<Unit filename="../cmake/modules/FindUHD.cmake" />
+		<Unit filename="../cmake/modules/FindVolk.cmake" />
+		<Unit filename="../cmake/modules/FindopenLTE.cmake" />
+		<Unit filename="../cmake/modules/srsLTEPackage.cmake" />
+		<Unit filename="../cmake_uninstall.cmake.in" />
+		<Unit filename="../matlab/common/read_complex.m" />
+		<Unit filename="../matlab/common/read_real.m" />
+		<Unit filename="../matlab/common/write_complex.m" />
+		<Unit filename="../matlab/rate_algorithm.m" />
+		<Unit filename="../matlab/resampler/arb_filter.mat" />
+		<Unit filename="../matlab/resampler/arb_resample_linear.m" />
+		<Unit filename="../matlab/resampler/arb_resample_nearest.m" />
+		<Unit filename="../matlab/resampler/arb_resample_test.m" />
+		<Unit filename="../matlab/sync/addnoise.m" />
+		<Unit filename="../matlab/sync/cfo_estimate_cp.m" />
+		<Unit filename="../matlab/sync/cfo_test.m" />
+		<Unit filename="../matlab/sync/check_pss.m" />
+		<Unit filename="../matlab/sync/correct_cfo.m" />
+		<Unit filename="../matlab/sync/cp_corr.m" />
+		<Unit filename="../matlab/sync/cp_pss_comp.m" />
+		<Unit filename="../matlab/sync/epsilon.m" />
+		<Unit filename="../matlab/sync/find_peaks.m" />
+		<Unit filename="../matlab/sync/find_pss.m" />
+		<Unit filename="../matlab/sync/find_pss2.m" />
+		<Unit filename="../matlab/sync/find_sss.m" />
+		<Unit filename="../matlab/sync/ifo_pss.m" />
+		<Unit filename="../matlab/sync/ifo_pss_corr.m" />
+		<Unit filename="../matlab/sync/lte_pss_zc.m" />
+		<Unit filename="../matlab/sync/sfo_estimate.m" />
+		<Unit filename="../matlab/sync/sym_sync_cp.m" />
+		<Unit filename="../matlab/tests/diversity_test_rate.m" />
+		<Unit filename="../matlab/tests/dlsch_test.m" />
+		<Unit filename="../matlab/tests/drms_pusch_test.m" />
+		<Unit filename="../matlab/tests/equalizer_test.m" />
+		<Unit filename="../matlab/tests/get_sc.m" />
+		<Unit filename="../matlab/tests/pbch_bler.m" />
+		<Unit filename="../matlab/tests/pdcch_bler.m" />
+		<Unit filename="../matlab/tests/pdsch_bler.m" />
+		<Unit filename="../matlab/tests/pdsch_resalloc.m" />
+		<Unit filename="../matlab/tests/prach_test.m" />
+		<Unit filename="../matlab/tests/print_m.m" />
+		<Unit filename="../matlab/tests/pucch_test.m" />
+		<Unit filename="../matlab/tests/pusch_decode_test.m" />
+		<Unit filename="../matlab/tests/pusch_test.m" />
+		<Unit filename="../matlab/tests/rm_turbo_rx_test.m" />
+		<Unit filename="../matlab/tests/sss_test.m" />
+		<Unit filename="../matlab/tests/sync_test.m" />
+		<Unit filename="../matlab/tests/test_ofdma_peakamp.m" />
+		<Unit filename="../matlab/tests/test_scfdma.m" />
+		<Unit filename="../matlab/tests/test_scfdma_peakamp.m" />
+		<Unit filename="../matlab/tests/turbodecoder_bler.m" />
+		<Unit filename="../matlab/tests/ulsch_test.m" />
+		<Unit filename="../matlab/tests/viterbi_bler.m" />
+		<Unit filename="../mex/CMakeLists.txt" />
+		<Unit filename="../mex/include/srslte/mex/mexutils.h" />
+		<Unit filename="../mex/lib/CMakeLists.txt" />
+		<Unit filename="../mex/lib/mexutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../pbch_capture.png" />
+		<Unit filename="../scripts/mod2aloe.py" />
+		<Unit filename="../scripts/mod2xml.py" />
+		<Unit filename="../scripts/module.py" />
+		<Unit filename="../scripts/module.pyc" />
+		<Unit filename="../scripts/module/__init__.py" />
+		<Unit filename="../scripts/module/__init__.pyc" />
+		<Unit filename="../scripts/module/pyclibrary/CLibrary.py" />
+		<Unit filename="../scripts/module/pyclibrary/CParser.py" />
+		<Unit filename="../scripts/module/pyclibrary/README.md" />
+		<Unit filename="../scripts/module/pyclibrary/__init__.py" />
+		<Unit filename="../scripts/module/pyclibrary/license.txt" />
+		<Unit filename="../scripts/module/pyclibrary/pyparsing.py" />
+		<Unit filename="../scripts/xml2aloe/__init__.py" />
+		<Unit filename="../scripts/xml2aloe/__init__.pyc" />
+		<Unit filename="../scripts/xml2aloe/template/CMakeLists.txt" />
+		<Unit filename="../scripts/xml2aloe/template/src/template.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../scripts/xml2aloe/template/src/template.h" />
+		<Unit filename="../scripts/xml2aloe/template/test/test_generate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srsapps/CMakeLists.txt" />
+		<Unit filename="../srsapps/common/CMakeLists.txt" />
+		<Unit filename="../srsapps/common/include/srsapps/common/binsem.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/config.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/log.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/log_stdout.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/params_db.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/qbuff.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/queue.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/timers.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/tti_sync.h" />
+		<Unit filename="../srsapps/common/include/srsapps/common/tti_sync_cv.h" />
+		<Unit filename="../srsapps/common/src/log_stdout.cc" />
+		<Unit filename="../srsapps/common/src/qbuff.cc" />
+		<Unit filename="../srsapps/common/src/queue.cc" />
+		<Unit filename="../srsapps/common/src/tti_sync_cv.cc" />
+		<Unit filename="../srsapps/radio/CMakeLists.txt" />
+		<Unit filename="../srsapps/radio/include/srsapps/radio/radio.h" />
+		<Unit filename="../srsapps/radio/include/srsapps/radio/radio_uhd.h" />
+		<Unit filename="../srsapps/radio/src/radio_uhd.cc" />
+		<Unit filename="../srsapps/ue/CMakeLists.txt" />
+		<Unit filename="../srsapps/ue/mac/CMakeLists.txt" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/demux.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/dl_harq.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/dl_sps.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/mac.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/mac_io.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/mac_params.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/mux.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/pdu.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/proc.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/proc_bsr.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/proc_phr.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/proc_ra.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/proc_sr.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/sdu_handler.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/ul_harq.h" />
+		<Unit filename="../srsapps/ue/mac/include/srsapps/ue/mac/ul_sps.h" />
+		<Unit filename="../srsapps/ue/mac/src/demux.cc" />
+		<Unit filename="../srsapps/ue/mac/src/dl_harq.cc" />
+		<Unit filename="../srsapps/ue/mac/src/dl_sps.cc" />
+		<Unit filename="../srsapps/ue/mac/src/mac.cc" />
+		<Unit filename="../srsapps/ue/mac/src/mux.cc" />
+		<Unit filename="../srsapps/ue/mac/src/pdu.cc" />
+		<Unit filename="../srsapps/ue/mac/src/proc_bsr.cc" />
+		<Unit filename="../srsapps/ue/mac/src/proc_ra.cc" />
+		<Unit filename="../srsapps/ue/mac/src/proc_sr.cc" />
+		<Unit filename="../srsapps/ue/mac/src/ul_harq.cc" />
+		<Unit filename="../srsapps/ue/mac/test/CMakeLists.txt" />
+		<Unit filename="../srsapps/ue/mac/test/mac_test.cc" />
+		<Unit filename="../srsapps/ue/phy/CMakeLists.txt" />
+		<Unit filename="../srsapps/ue/phy/include/srsapps/ue/phy/dl_buffer.h" />
+		<Unit filename="../srsapps/ue/phy/include/srsapps/ue/phy/dl_sched_grant.h" />
+		<Unit filename="../srsapps/ue/phy/include/srsapps/ue/phy/phy.h" />
+		<Unit filename="../srsapps/ue/phy/include/srsapps/ue/phy/phy_params.h" />
+		<Unit filename="../srsapps/ue/phy/include/srsapps/ue/phy/prach.h" />
+		<Unit filename="../srsapps/ue/phy/include/srsapps/ue/phy/sched_grant.h" />
+		<Unit filename="../srsapps/ue/phy/include/srsapps/ue/phy/ul_buffer.h" />
+		<Unit filename="../srsapps/ue/phy/include/srsapps/ue/phy/ul_sched_grant.h" />
+		<Unit filename="../srsapps/ue/phy/src/dl_buffer.cc" />
+		<Unit filename="../srsapps/ue/phy/src/phy.cc" />
+		<Unit filename="../srsapps/ue/phy/src/prach.cc" />
+		<Unit filename="../srsapps/ue/phy/src/ul_buffer.cc" />
+		<Unit filename="../srsapps/ue/phy/test/CMakeLists.txt" />
+		<Unit filename="../srsapps/ue/phy/test/ue_itf_test_prach.cc" />
+		<Unit filename="../srsapps/ue/phy/test/ue_itf_test_sib1.cc" />
+		<Unit filename="../srslte/CMakeLists.txt" />
+		<Unit filename="../srslte/examples/CMakeLists.txt" />
+		<Unit filename="../srslte/examples/cell_measurement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/cell_search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/hl_example.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/ll_example.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/pdsch_enodeb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/pdsch_ue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/prach_ue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/synch_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/tutorial_examples/CMakeLists.txt" />
+		<Unit filename="../srslte/examples/tutorial_examples/pss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/tutorial_examples/simple_tx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/usrp_capture.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/examples/usrp_capture_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/include/srslte/agc/agc.h" />
+		<Unit filename="../srslte/include/srslte/ch_estimation/chest_dl.h" />
+		<Unit filename="../srslte/include/srslte/ch_estimation/refsignal_dl.h" />
+		<Unit filename="../srslte/include/srslte/ch_estimation/refsignal_ul.h" />
+		<Unit filename="../srslte/include/srslte/channel/ch_awgn.h" />
+		<Unit filename="../srslte/include/srslte/common/phy_common.h" />
+		<Unit filename="../srslte/include/srslte/common/sequence.h" />
+		<Unit filename="../srslte/include/srslte/common/timestamp.h" />
+		<Unit filename="../srslte/include/srslte/config.h" />
+		<Unit filename="../srslte/include/srslte/cuhd/cuhd.h" />
+		<Unit filename="../srslte/include/srslte/cuhd/cuhd_utils.h" />
+		<Unit filename="../srslte/include/srslte/dft/dft.h" />
+		<Unit filename="../srslte/include/srslte/dft/dft_precoding.h" />
+		<Unit filename="../srslte/include/srslte/dft/ofdm.h" />
+		<Unit filename="../srslte/include/srslte/fec/cbsegm.h" />
+		<Unit filename="../srslte/include/srslte/fec/convcoder.h" />
+		<Unit filename="../srslte/include/srslte/fec/crc.h" />
+		<Unit filename="../srslte/include/srslte/fec/rm_conv.h" />
+		<Unit filename="../srslte/include/srslte/fec/rm_turbo.h" />
+		<Unit filename="../srslte/include/srslte/fec/softbuffer.h" />
+		<Unit filename="../srslte/include/srslte/fec/tc_interl.h" />
+		<Unit filename="../srslte/include/srslte/fec/turbocoder.h" />
+		<Unit filename="../srslte/include/srslte/fec/turbodecoder.h" />
+		<Unit filename="../srslte/include/srslte/fec/viterbi.h" />
+		<Unit filename="../srslte/include/srslte/io/binsource.h" />
+		<Unit filename="../srslte/include/srslte/io/filesink.h" />
+		<Unit filename="../srslte/include/srslte/io/filesource.h" />
+		<Unit filename="../srslte/include/srslte/io/format.h" />
+		<Unit filename="../srslte/include/srslte/io/netsink.h" />
+		<Unit filename="../srslte/include/srslte/io/netsource.h" />
+		<Unit filename="../srslte/include/srslte/mimo/layermap.h" />
+		<Unit filename="../srslte/include/srslte/mimo/precoding.h" />
+		<Unit filename="../srslte/include/srslte/modem/demod_hard.h" />
+		<Unit filename="../srslte/include/srslte/modem/demod_soft.h" />
+		<Unit filename="../srslte/include/srslte/modem/mod.h" />
+		<Unit filename="../srslte/include/srslte/modem/modem_table.h" />
+		<Unit filename="../srslte/include/srslte/phch/cqi.h" />
+		<Unit filename="../srslte/include/srslte/phch/dci.h" />
+		<Unit filename="../srslte/include/srslte/phch/pbch.h" />
+		<Unit filename="../srslte/include/srslte/phch/pcfich.h" />
+		<Unit filename="../srslte/include/srslte/phch/pdcch.h" />
+		<Unit filename="../srslte/include/srslte/phch/pdsch.h" />
+		<Unit filename="../srslte/include/srslte/phch/pdsch_cfg.h" />
+		<Unit filename="../srslte/include/srslte/phch/phich.h" />
+		<Unit filename="../srslte/include/srslte/phch/prach.h" />
+		<Unit filename="../srslte/include/srslte/phch/pucch.h" />
+		<Unit filename="../srslte/include/srslte/phch/pusch.h" />
+		<Unit filename="../srslte/include/srslte/phch/pusch_cfg.h" />
+		<Unit filename="../srslte/include/srslte/phch/ra.h" />
+		<Unit filename="../srslte/include/srslte/phch/regs.h" />
+		<Unit filename="../srslte/include/srslte/phch/sch.h" />
+		<Unit filename="../srslte/include/srslte/phch/uci.h" />
+		<Unit filename="../srslte/include/srslte/resampling/decim.h" />
+		<Unit filename="../srslte/include/srslte/resampling/interp.h" />
+		<Unit filename="../srslte/include/srslte/resampling/resample_arb.h" />
+		<Unit filename="../srslte/include/srslte/scrambling/scrambling.h" />
+		<Unit filename="../srslte/include/srslte/srslte.h" />
+		<Unit filename="../srslte/include/srslte/sync/cfo.h" />
+		<Unit filename="../srslte/include/srslte/sync/pss.h" />
+		<Unit filename="../srslte/include/srslte/sync/sfo.h" />
+		<Unit filename="../srslte/include/srslte/sync/sss.h" />
+		<Unit filename="../srslte/include/srslte/sync/sync.h" />
+		<Unit filename="../srslte/include/srslte/ue/ue_cell_search.h" />
+		<Unit filename="../srslte/include/srslte/ue/ue_dl.h" />
+		<Unit filename="../srslte/include/srslte/ue/ue_mib.h" />
+		<Unit filename="../srslte/include/srslte/ue/ue_phy.h" />
+		<Unit filename="../srslte/include/srslte/ue/ue_sync.h" />
+		<Unit filename="../srslte/include/srslte/ue/ue_ul.h" />
+		<Unit filename="../srslte/include/srslte/utils/bit.h" />
+		<Unit filename="../srslte/include/srslte/utils/cexptab.h" />
+		<Unit filename="../srslte/include/srslte/utils/convolution.h" />
+		<Unit filename="../srslte/include/srslte/utils/debug.h" />
+		<Unit filename="../srslte/include/srslte/utils/vector.h" />
+		<Unit filename="../srslte/lib/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/agc/src/agc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ch_estimation/src/chest_dl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ch_estimation/src/refsignal_dl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ch_estimation/src/refsignal_ul.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ch_estimation/src/ul_rs_tables.h" />
+		<Unit filename="../srslte/lib/ch_estimation/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/ch_estimation/test/chest_test_dl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ch_estimation/test/chest_test_dl_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ch_estimation/test/chest_test_dl_mex.mexa64" />
+		<Unit filename="../srslte/lib/ch_estimation/test/refsignal_pusch_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ch_estimation/test/refsignal_ul_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/channel/src/ch_awgn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/channel/src/gauss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/channel/src/gauss.h" />
+		<Unit filename="../srslte/lib/common/src/phy_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/common/src/sequence.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/common/src/timestamp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/cuhd/src/cuhd_handler.hpp" />
+		<Unit filename="../srslte/lib/cuhd/src/cuhd_imp.cpp" />
+		<Unit filename="../srslte/lib/cuhd/src/cuhd_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/dft/src/dft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/dft/src/dft_precoding.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/dft/src/ofdm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/dft/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/dft/test/ofdm_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/cbsegm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/convcoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/crc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/parity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/parity.h" />
+		<Unit filename="../srslte/lib/fec/src/rm_conv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/rm_turbo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/softbuffer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/tc_interl_lte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/tc_interl_umts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/turbocoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/turbodecoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/viterbi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/viterbi37.h" />
+		<Unit filename="../srslte/lib/fec/src/viterbi37_port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/src/viterbi39.h" />
+		<Unit filename="../srslte/lib/fec/src/viterbi39_port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/fec/test/crc_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/test/crc_test.h" />
+		<Unit filename="../srslte/lib/fec/test/rm_conv_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/test/rm_turbo_rx_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/test/rm_turbo_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/test/turbodecoder_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/test/turbodecoder_test.h" />
+		<Unit filename="../srslte/lib/fec/test/turbodecoder_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/test/viterbi_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/fec/test/viterbi_test.h" />
+		<Unit filename="../srslte/lib/fec/test/viterbi_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/io/src/binsource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/io/src/filesink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/io/src/filesource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/io/src/netsink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/io/src/netsource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/mimo/src/layermap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/mimo/src/precoding.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/mimo/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/mimo/test/layermap_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/mimo/test/precoding_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/src/demod_hard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/src/demod_soft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/src/hard_demod_lte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/src/hard_demod_lte.h" />
+		<Unit filename="../srslte/lib/modem/src/lte_tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/src/lte_tables.h" />
+		<Unit filename="../srslte/lib/modem/src/mod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/src/modem_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/src/soft_algs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/src/soft_algs.h" />
+		<Unit filename="../srslte/lib/modem/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/modem/test/modem_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/modem/test/soft_demod_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/cqi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/dci.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/pbch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/pcfich.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/pdcch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/pdsch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/phich.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/prach.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/prb_dl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/prb_dl.h" />
+		<Unit filename="../srslte/lib/phch/src/pucch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/pusch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/ra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/regs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/sch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/sequences.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/src/tbs_tables.h" />
+		<Unit filename="../srslte/lib/phch/src/uci.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/phch/test/dci_unpacking.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/dlsch_encode_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pbch_file_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pbch_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pbch_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pcfich_file_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pcfich_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pcfich_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pdcch_file_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pdcch_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pdcch_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pdsch_file_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pdsch_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pdsch_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/phich_file_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/phich_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/prach_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/prach_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/prach_test_multi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pucch_encode_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pucch_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pusch_encode_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/pusch_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/phch/test/signal.1.92M.amar.dat" />
+		<Unit filename="../srslte/lib/phch/test/signal.1.92M.dat" />
+		<Unit filename="../srslte/lib/phch/test/signal.10M.dat" />
+		<Unit filename="../srslte/lib/phch/test/ulsch_encode_test_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/resampling/src/decim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/resampling/src/interp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/resampling/src/resample_arb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/resampling/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/resampling/test/resample_arb_bench.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/resampling/test/resample_arb_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/scrambling/src/scrambling.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/scrambling/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/scrambling/test/scrambling_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/src/cfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/src/cp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/src/find_sss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/src/gen_sss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/src/pss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/src/sfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/src/sss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/src/sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/sync/test/cfo_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/test/pss_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/test/pss_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/test/pss_usrp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/test/sss_mex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/sync/test/sync_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ue/src/ue_cell_search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ue/src/ue_dl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ue/src/ue_mib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ue/src/ue_sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/ue/src/ue_ul.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/utils/src/bit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/utils/src/cexptab.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/utils/src/convolution.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/utils/src/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/utils/src/vector.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../srslte/lib/utils/test/CMakeLists.txt" />
+		<Unit filename="../srslte/lib/utils/test/dft_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<debugger />
