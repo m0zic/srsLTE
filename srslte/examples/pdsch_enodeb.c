@@ -605,6 +605,26 @@ int main(int argc, char **argv) {
         // FIXME
         float norm_factor = (float) cell.nof_prb/15/sqrtf(pdsch_cfg.grant.nof_prb);
         srslte_vec_sc_prod_cfc(output_buffer, uhd_amp*norm_factor, output_buffer, SRSLTE_SF_LEN_PRB(cell.nof_prb));
+
+          // fork
+  pid_t fpid;
+  fpid=fork();
+  if (fpid < 0)
+        printf("Error in fork!");
+        else if (fpid == 0){//child process
+        printf("This is the child process /n");
+        prog_args.net_port="2000"
+        prog_args.uhd_args="ip-addr=192.168.10.2"
+        }
+    else{
+        printf("This is the parent process /n");
+        prog_args.net_port="2001"
+        prog_args.uhd_args="ip-addr=192.168.10.3"
+    }
+
+    // fork end
+
+    
         cuhd_send(uhd, output_buffer, sf_n_samples, true);
 #endif
       }
