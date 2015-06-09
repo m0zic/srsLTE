@@ -70,7 +70,13 @@ uint32_t cfi=2;
 uint32_t mcs_idx = 1, last_mcs_idx = 1;
 int nof_frames = -1;
 
-char *uhd_args = "";
+
+
+char *uhd_args = "ip-addr=192.168.10.2";
+char *uhd_args2 = "ip-addr=192.168.10.3";
+
+
+
 float uhd_amp = 0.8, uhd_gain = 70.0, uhd_freq = 2400000000;
 
 bool null_file_sink=false; 
@@ -606,7 +612,14 @@ int main(int argc, char **argv) {
         float norm_factor = (float) cell.nof_prb/15/sqrtf(pdsch_cfg.grant.nof_prb);
         srslte_vec_sc_prod_cfc(output_buffer, uhd_amp*norm_factor, output_buffer, SRSLTE_SF_LEN_PRB(cell.nof_prb));
 
-          // fork
+
+
+
+
+/*
+
+
+  // fork
   pid_t fpid;
   fpid=fork();
   if (fpid < 0)
@@ -624,7 +637,17 @@ int main(int argc, char **argv) {
 
     // fork end
 
-    
+
+
+
+
+
+*/
+
+
+
+
+
         cuhd_send(uhd, output_buffer, sf_n_samples, true);
 #endif
       }
